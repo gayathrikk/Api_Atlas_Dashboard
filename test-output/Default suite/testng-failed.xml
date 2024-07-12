@@ -3,11 +3,20 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="divya.AutomationPrograms.Api_Atlas_Dashboard">
+      <class name="divya.AutomationPrograms.Atlas_rename">
         <methods>
-          <include name="testAPIs"/>
+          <include name="drawSquareInMiddle"/>
+          <include name="selectRegion"/>
+          <include name="setup"/>
+          <include name="Save_Del_region"/>
+          <include name="Direct_Draw_page"/>
+          <include name="search"/>
+          <include name="table"/>
+          <include name="tearDown"/>
+          <include name="DeleteRegion"/>
+          <include name="Login"/>
         </methods>
-      </class> <!-- divya.AutomationPrograms.Api_Atlas_Dashboard -->
+      </class> <!-- divya.AutomationPrograms.Atlas_rename -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
